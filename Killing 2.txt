@@ -21,8 +21,8 @@ local title = ("Pulse Hub| Hello %s"):format(displayName)
 local library = loadstring(game:HttpGet("https://github.com/waxxan2/Pulse/raw/refs/heads/main/SynioxGui%20(3).txt", true))()
 
 local window = library:AddWindow(title, {
-    main_color = Color3.fromRGB(0, 0, 0),
-    min_size = Vector2.new(400, 870),
+    main_color = Color3.fromRGB(200, 0, 0),
+    min_size = Vector2.new(100, 0),
     can_resize = true,
 })
 
